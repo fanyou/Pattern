@@ -54,7 +54,7 @@ class BaoMa implements Car {
 class AoDi implements Car {
     @Override
     public void drive() {
-        System.out.println("我要开奥迪了");
+        System.out.println("哈，我要开奥迪了");
     }
 }
 
