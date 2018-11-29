@@ -5,7 +5,7 @@ package module;
  * @description 大话设计模式 第17章 适配器模式
  * @date 2018-11-29
  */
-public class ShiPaiQi {
+public class ShiPeiQi {
     public static void main(String[] args) {
         /**
          * example one
