@@ -3,6 +3,7 @@ package module;// package pattern;
 /**
  * @author fanyou
  * @description 大话设计模式 第1章 简单工厂模式
+ * 有三个角色：1.一个工厂类，用于生产产品；2.一个产品类；3.一个产品的抽象类
  * @date 2018/11/22
  **/
 public class SimpleFactory {
@@ -22,14 +23,14 @@ public class SimpleFactory {
 
 /**
  * 轿车接口
- * 抽象产品角色
+ * 产品抽象类（角色：一个产品的抽象类）
  */
 interface Car {
     void drive();
 }
 
 /**
- * 具体产品角色
+ * 具体产品类（角色：一个产品类）
  */
 class BenChi implements Car {
     @Override
@@ -59,8 +60,8 @@ class AoDi implements Car {
 }
 
 /**
- * 工厂类角色，用于生产具体产品
- * 司机听到暴发户说要坐宝马，则司机就会到车库把宝马开出来
+ * 工厂类角色，用于生产具体产品（角色：一个工厂类）
+ * 司机听到暴发户说角色要坐宝马，则司机就会到车库把宝马开出来
  */
 class MyDriver {
     Car driveCar(String s) {
