@@ -12,7 +12,7 @@ import java.util.List;
 
 /**
  * @author fanyou
- * @description 大话设计模式 附录A.12集合和泛型
+ * @description 大话设计模式 附录A.12 集合和泛型
  * @date 2018/11/24
  **/
 public class JiHe {
