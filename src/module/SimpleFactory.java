@@ -2,7 +2,7 @@ package module;// package pattern;
 
 /**
  * @author fanyou
- * @description 简单工厂模式
+ * @description 大话设计模式 第1章 简单工厂模式
  * @date 2018/11/22
  **/
 public class SimpleFactory {
