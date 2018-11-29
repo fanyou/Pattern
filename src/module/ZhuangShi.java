@@ -2,7 +2,7 @@ package module;
 
 /**
  * @author fanyou
- * @description 大话设计模式 第6章 装饰模式
+ * @description 大话设计模式 第6章 装饰 模式
  * @date 2018/11/28 23:15
  **/
 public class ZhuangShi {
