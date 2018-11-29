@@ -5,7 +5,7 @@ import java.util.List;
 
 /**
  * @author fanyou
- * @description 大话设计模式 第14章 观察者模式
+ * @description 大话设计模式 第14章 观察者 模式
  * @date 2018/11/27 13:32
  **/
 public class GuanChaZhe {
